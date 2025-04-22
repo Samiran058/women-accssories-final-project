@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Designer Header</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style3.css">
+</head>
+
+<body>
+    <!-- top-head part -->
+    <header class="container-fluid top-header p-2">
+        <div class="container">
+            <div
+                class="d-flex justify-content-between align-items-center flex-column flex-sm-row flex-md-row flex-md-row gap-sm-0 gap-2">
+                <!-- Logo / Brand -->
+                <div>
+                    <img src="./images/design_logo.png" alt="">
+                </div>
+                <!-- Social Media Icons -->
+                <div class="social-icons d-flex gap-3">
+                    <a href="#"><img src="./images/Group 40123.png" alt="" class="mt-1 mt-sm-0 top_head_img"></a>
+                    <a href="#" class="text-dark top_head_font_aw"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" class="text-dark top_head_font_aw"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-dark top_head_font_aw"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-dark top_head_font_aw"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="py-5">
+        <div class="container">
+            <div class="row text-center g-3">
+
+                <div class="col-6 col-md-2 offset-md-1">
+                    <img src="./images/new_arr_sp1.png" alt="Jewellery" class="img-fluid for_hover_effect">
+                    <p class="mt-2 fw-semibold">Jewellery</p>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <img src="./images/new_arr_sp_2.png" alt="Watches" class="img-fluid for_hover_effect">
+                    <p class="mt-2 fw-semibold">Watches</p>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <img src="./images/new_arr_sp_3.png" alt="Hair Accessories" class="img-fluid for_hover_effect">
+                    <p class="mt-2 fw-semibold">Hair Accessories</p>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <img src="./images/new_arr_sp_4.png" alt="More Accessories" class="img-fluid for_hover_effect">
+                    <p class="mt-2 fw-semibold">More Accessories</p>
+                </div>
+
+                <div class="col-6 col-md-2">
+                    <img src="./images/new_arr_sp_5.png" alt="Bags" class="img-fluid for_hover_effect">
+                    <p class="mt-2 fw-semibold">Bags</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid mt-4">
+        <div class="container">
+            <div class="row">
+
+                <!-- Filter Sidebar -->
+                <div class="col-md-3">
+                    <div class="mb-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search our store">
+                            <span class="input-group-text">
+                              <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                          </div>
+                    </div>
+
+                    <h5 class="mb-2">FILTER BY</h5>
+
+                    <div class="accordion" id="filterAccordion">
+                        <!-- Categories -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingCategories">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseCategories">
+                                    Categories
+                                </button>
+                            </h2>
+                            <div id="collapseCategories" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="d-flex justify-content-between"> <div><input type="checkbox"> Jewellery+ </div><span class="customer_view_opacity">(365)</span></div>
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> Hair Accessories+</div><span class="customer_view_opacity">(154)</span></div>
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> Watch+</div><span class="customer_view_opacity">(154)</span></div>
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> Bags+</div><span class="customer_view_opacity">(150)</span></div>
+                                    <div class="d-flex justify-content-between"> <div><input type="checkbox"> More Accessories+</div><span class="customer_view_opacity">(320)</span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Price -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingPrice">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsePrice">
+                                    Price
+                                </button>
+                            </h2>
+                            <div id="collapsePrice" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <label for="priceRange" class="form-label">₹0 - ₹20000</label>
+                                    <input type="range" class="form-range" min="0" max="20000" id="priceRange">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Type -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingType">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseType">
+                                    Type
+                                </button>
+                            </h2>
+                            <div id="collapseType" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> Western</div><span class="customer_view_opacity">(554)</span></div>
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> Ethnic</div><span class="customer_view_opacity">(154)</span></div>
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> IndoWestern</div><span class="customer_view_opacity">(194)</span></div>
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> Modern</div><span class="customer_view_opacity">(150)</span></div>
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> 90’s Edition</div><span class="customer_view_opacity">(320)</span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Colour -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingColour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseColour">
+                                    Colour
+                                </button>
+                            </h2>
+                            <div id="collapseColour" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="d-flex gap-2">
+                                        <div class="rounded-circle"
+                                            style="width: 20px; height: 20px; background-color: red;"></div>
+                                        <div class="rounded-circle"
+                                            style="width: 20px; height: 20px; background-color: green;"></div>
+                                        <div class="rounded-circle"
+                                            style="width: 20px; height: 20px; background-color: yellow;"></div>
+                                        <div class="rounded-circle"
+                                            style="width: 20px; height: 20px; background-color: brown;"></div>
+                                            <div class="rounded-circle"
+                                            style="width: 20px; height: 20px; background-color: #8B6D6D;"></div>
+                                            <div class="rounded-circle"
+                                            style="width: 20px; height: 20px; background-color: #EFE6CE;"></div>
+                                            <div class="rounded-circle"
+                                            style="width: 20px; height: 20px; background-color: #4B4B4B;"></div>
+                                            <div class="rounded-circle"
+                                            style="width: 20px; height: 20px; background-color: #B147BA;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Brand -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingBrand">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseBrand">
+                                    Brand
+                                </button>
+                            </h2>
+                            <div id="collapseBrand" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> Mango</div><span class="customer_view_opacity">(554)</span></div>
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> Zara</div><span class="customer_view_opacity">(154)</span></div>
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> Forever Glam</div><span class="customer_view_opacity">(150)</span></div>
+                                    <div class="d-flex justify-content-between"><div><input type="checkbox"> H&M</div><span class="customer_view_opacity">(194)</span></div>
+                                    <!-- <div class="d-flex justify-content-between"><div></div><input type="checkbox"> New Arrivals</div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between px-3">
+                            <span>show more</span>
+                            <span class="customer_view_opacity">(1050)</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between px-3">
+                            <span>Bestsellers</span>
+                            <span class="customer_view_opacity">(534)</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between px-3">
+                            <span>Top Rated</span>
+                            <span class="customer_view_opacity">(154)</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between px-3">
+                            <span>New Arrivals</span>
+                            <span class="customer_view_opacity">(154)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="col-md-9 ">
+                    <div class="d-flex justify-content-end align-items-center gap-2 mb-3 mt-sm-3 mt-3 mt-md-0">
+                        <label class="mb-0">Sort By:</label>
+                        <select class="form-select form-select-sm w-auto">
+                            <option selected>Relevance</option>
+                            <option>Price Low to High</option>
+                            <option>Price High to Low</option>
+                        </select>
+                        
+                    </div>
+                     <div class="border-top my-3"></div>
+                    <div class="row g-4">
+                        <!-- Product Item -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <img src="./images/new_arr14.png" alt="Product Image" class="img-fluid w-100">
+                                <div class="d-flex justify-content-between mt-2 product-category"><span>Jewellery</span><i
+                                        class="far fa-heart wishlist"></i></div>
+                                <div class="product-name fw-medium">Peach Stone Earrings</div>
+                                <div class="product-price">
+                                    <del><span class="old-price fw-bold">₹300</span></del> <span
+                                        class="new-price fw-bold">₹220</span>
+                                </div>
+                                <button class="fw-bold add-to-cart-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <!-- Duplicate this div for more products -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <img src="./images/new_arr_15.png" alt="Product Image" class="img-fluid w-100">
+                                <div class="d-flex justify-content-between mt-2 product-category"><span>Jewellery</span><i
+                                        class="far fa-heart wishlist"></i></div>
+                                <div class="product-name fw-medium">Peach Stone Earrings</div>
+                                <div class="product-price">
+                                    <del><span class="old-price fw-bold">₹300</span></del> <span
+                                        class="new-price fw-bold">₹220</span>
+                                </div>
+                                <button class="fw-bold add-to-cart-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <img src="./images/new_arr_16.png" alt="Product Image" class="img-fluid w-100">
+                                <div class="d-flex justify-content-between mt-2 product-category"><span>Jewellery</span><i
+                                        class="far fa-heart wishlist"></i></div>
+                                <div class="product-name fw-medium">Peach Stone Earrings</div>
+                                <div class="product-price">
+                                    <del><span class="old-price fw-bold">₹300</span></del> <span
+                                        class="new-price fw-bold">₹220</span>
+                                </div>
+                                <button class="fw-bold add-to-cart-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <img src="./images/new_arr6.png" alt="Product Image" class="img-fluid w-100">
+                                <div class="d-flex justify-content-between mt-2 product-category"><span>Jewellery</span><i
+                                        class="far fa-heart wishlist"></i></div>
+                                <div class="product-name fw-medium">Peach Stone Earrings</div>
+                                <div class="product-price">
+                                    <del><span class="old-price fw-bold">₹300</span></del> <span
+                                        class="new-price fw-bold">₹220</span>
+                                </div>
+                                <button class="fw-bold add-to-cart-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <img src="./images/new_arr12.png" alt="Product Image" class="img-fluid w-100">
+                                <div class="d-flex justify-content-between mt-2 product-category"><span>Jewellery</span><i
+                                        class="far fa-heart wishlist"></i></div>
+                                <div class="product-name fw-medium">Peach Stone Earrings</div>
+                                <div class="product-price">
+                                    <del><span class="old-price fw-bold">₹300</span></del> <span
+                                        class="new-price fw-bold">₹220</span>
+                                </div>
+                                <button class="fw-bold add-to-cart-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <img src="./images/new_arr8.png" alt="Product Image" class="img-fluid w-100">
+                                <div class="d-flex justify-content-between mt-2 product-category"><span>Jewellery</span><i
+                                        class="far fa-heart wishlist"></i></div>
+                                <div class="product-name fw-medium">Peach Stone Earrings</div>
+                                <div class="product-price">
+                                    <del><span class="old-price fw-bold">₹300</span></del> <span
+                                        class="new-price fw-bold">₹220</span>
+                                </div>
+                                <button class="fw-bold add-to-cart-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <img src="./images/new_arr19.png" alt="Product Image" class="img-fluid w-100">
+                                <div class="d-flex justify-content-between mt-2 product-category"><span>Jewellery</span><i
+                                        class="far fa-heart wishlist"></i></div>
+                                <div class="product-name fw-medium">Peach Stone Earrings</div>
+                                <div class="product-price">
+                                    <del><span class="old-price fw-bold">₹300</span></del> <span
+                                        class="new-price fw-bold">₹220</span>
+                                </div>
+                                <button class="fw-bold add-to-cart-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <img src="./images/new_arr18.png" alt="Product Image" class="img-fluid w-100">
+                                <div class="d-flex justify-content-between mt-2 product-category"><span>Jewellery</span><i
+                                        class="far fa-heart wishlist"></i></div>
+                                <div class="product-name fw-medium">Peach Stone Earrings</div>
+                                <div class="product-price">
+                                    <del><span class="old-price fw-bold">₹300</span></del> <span
+                                        class="new-price fw-bold">₹220</span>
+                                </div>
+                                <button class="fw-bold add-to-cart-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <img src="./images/new_arr13.png" alt="Product Image" class="img-fluid w-100">
+                                <div class="d-flex justify-content-between mt-2 product-category"><span>Jewellery</span><i
+                                        class="far fa-heart wishlist"></i></div>
+                                <div class="product-name fw-medium">Peach Stone Earrings</div>
+                                <div class="product-price">
+                                    <del><span class="old-price fw-bold">₹300</span></del> <span
+                                        class="new-price fw-bold">₹220</span>
+                                </div>
+                                <button class="fw-bold add-to-cart-btn">ADD TO CART</button>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <img src="./images/page_change.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+     <!-- footer -->
+     <footer class="container-fluid py-4 mt-5 footer_bg_color">
+        <div class="container">
+            <h2 class="fw-normal text-center mb-5 design">DESIGNHER</h2>
+            <div class="row text-center text-sm-center text-md-center text-lg-start">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold help">SHOP</h5>
+                    <div class="d-flex gap-sm-2 gap-lg-5 justify-content-center justify-content-sm-center   justify-content-lg-start  unicon">
+                        <ul class="list-unstyled">
+                            <li>SHOP</li>
+                            <li>NEW ARRIVAL</li>
+                            <li>SALES</li>
+                            <li>LOOK BOOK</li>
+                            <li>STORIES</li>
+                            <li>ABOUT</li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li>ALL</li>
+                            <li>JEWELLERY</li>
+                            <li>SALES</li>
+                            <li>HAIR ACCESSORIES</li>
+                            <li>BAGS</li>
+                            <li>WATCHES</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold help">HELP</h5>
+                    <ul class="list-unstyled">
+                        <li>TRACK YOUR ORDER</li>
+                        <li>SHIPPING INFO</li>
+                        <li>RETURNS and EXCHANGES</li>
+                        <li>MY ACCOUNT</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 foteer_p">
+                    <h5 class="fw-bold help">CONTACT US</h5>
+                    <p>+91 9874563210</p>
+                    <p>789654, ROASH, WEST BENGAL, 1/A</p>
+                    <h5 class="fw-bold help">SOCIAL MEDIA</h5>
+                    <p>Instagram | Facebook | Etsy</p>
+                </div>
+                <div class="col-lg-3 col-md-6  foteer_p">
+                    <h5 class="fw-bold help">SUBSCRIBE</h5>
+                    <p>Be the first to get the latest news about trends, promotions, and much more!</p>
+                    <div class="email-subscribe d-flex justify-content-between mb-3">
+                        <input type="email" class="form-control p-2 email-input" placeholder="Your Email Address">
+                        <button class="fw-bold p-2 join-btn">JOIN</button>
+                    </div>
+                    <h6 class="fw-bold">Secure Payments</h6>
+                    <div class="d-flex gap-2 justify-content-center justify-content-sm-center justify-content-lg-start footerimg_group">
+                        <img src="./images/Google pay.png" alt="Payment Methods" class="img-fluid">
+                        <img src="./images/Paypal logo.png" alt="" class="img-fluid">
+                        <img src="./images/Visa.png" alt="" class="img-fluid">
+                        <img src="./images/card 1.png" alt="" class="img-fluid">
+                        <img src="./images/social 1.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between foteer_p">
+                <p>&copy; 2024 DESIGNHER. ALL RIGHTS RESERVED</p>
+                <p><a href="#" class="text-dark">TERMS OF USE</a> | <a href="#" class="text-dark">PRIVACY POLICY</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

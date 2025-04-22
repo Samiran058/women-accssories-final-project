@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Julius+Sans+One&display=swap');
+.top-header {
+    background-color: #D7CFC4;
+}
+
+.top_head_font_aw {
+    font-size: 20px;
+}
+
+.top_head_img {
+    vertical-align: middle;
+    height: 20px;
+    width: 21px;
+}
+.for_hover_effect:hover{
+    border-radius: 15px;
+}
+
+.custom-border {
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -10px;
+    width: calc(100% - 400px); /* Extends behind the main box */
+    background-color: #e8e3dd; /* Shadow-like color */
+    z-index: 2;
+  }
+
+.main_img_bg_color{
+background-color: #D7CFC4;
+height: 635px;
+}
+.img_hight{
+    height: 635px;
+}
+.about_main_part_extra_padding{
+    padding-left: 70px;
+   
+}
+.mainbox_about_class{
+    position: absolute;
+    top: 120px;
+    left: -550px;
+}
+.text-about_extra_top_padding{
+    padding-top: 220px;
+}
+.for_position_apply{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.about_para{
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/*  */
+@media (max-width: 1288px){
+    .mainbox_about_class{
+        left: -450px; 
+    } 
+    .text-about_extra_top_padding{
+        padding-top: 250px;
+    }
+}
+@media (max-width: 1104px){
+  .mainbox_about_class{
+      left: -350px; 
+  } 
+  
+}
+@media (max-width: 1024px){
+  .text-about_extra_top_padding{
+    padding-top: 280px;
+}
+}
+@media (max-width: 991.98px){
+  .text-about_extra_top_padding{
+    padding-top: 0px;
+}
+.about_main_part_extra_padding{
+  padding-left: 0px;
+ 
+}
+.mainbox_about_class{
+left: 0px;
+}
+
+}
+
+.what_makes_up_bg_color{
+  background-color: #EAE5DE;
+}
+.add_extra_padding{
+  padding-left: 110px;
+}
+.add_extra_padding_for_col{
+  padding-right: 150px;
+}
+.add_extra_padding_for_col_left{
+  padding-left: 100px;
+}
+.for_font1{
+  font-size: 28px;
+  font-family: "Julius Sans One", sans-serif;
+}
+.for_font2{
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.slanted-section {
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+}
+@media (max-width: 1400px){
+  .add_extra_padding_for_col{
+    padding-right: 0px;
+  }
+  .add_extra_padding_for_col_left{
+    padding-left: 0px;
+  }
+}
+@media (max-width: 1199.98px){
+  .add_extra_padding{
+    padding-left: 0px;
+  }
+}
+
+/* the company */
+.the_company_para{
+  font-family: "Nunito Sans", sans-serif;
+  font-style: italic;
+}
+.the_company{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+  
+}
+.the_company2 {
+  position: relative;
+}
+.the_company2::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -10px; 
+  width: 90px; 
+  height: 3px;
+  background-color: black;
+}
+.font_si{
+  font-size: 35px;
+}
+/*  */
+/* footer */
+.footer_bg_color{
+  background-color: #EAE5DE;
+}
+.email-subscribe {
+  border: 1px solid #B8A79E;
+  width: auto;
+}
+.email-input {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.join-btn {
+  border: none;
+  background: transparent;
+}
+.help,.list-unstyled li,.foteer_p>p{
+  font-family: "Nunito Sans", sans-serif;}
+.list-unstyled li,.foteer_p>p{
+  font-size: 13px;
+}
+.design{
+  font-family: "Italiana", sans-serif;
+  font-size: 38px;  
+}
+a{
+  text-decoration: none;
+}
+
+

@@ -1,0 +1,51 @@
+.top-header {
+    background-color: #D7CFC4;
+}
+
+.top_head_font_aw {
+    font-size: 20px;
+}
+
+.top_head_img {
+    vertical-align: middle;
+    height: 20px;
+    width: 21px;
+}
+.for_opcity{
+    opacity: 0.4;
+}
+hr{
+    opacity: 0.2;
+}
+.for_text_opaci{
+    opacity: 0.6;
+}
+/* footer */
+.footer_bg_color{
+    background-color: #EAE5DE;
+  }
+  .email-subscribe {
+    border: 1px solid #B8A79E;
+    width: auto;
+  }
+  .email-input {
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+  .join-btn {
+    border: none;
+    background: transparent;
+  }
+  .help,.list-unstyled li,.foteer_p>p{
+    font-family: "Nunito Sans", sans-serif;}
+  .list-unstyled li,.foteer_p>p{
+    font-size: 13px;
+  }
+  .design{
+    font-family: "Italiana", sans-serif;
+    font-size: 38px;  
+  }
+  a{
+    text-decoration: none;
+  }

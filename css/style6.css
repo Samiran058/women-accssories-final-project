@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+.top-header {
+    background-color: #D7CFC4;
+}
+
+.top_head_font_aw {
+    font-size: 20px;
+}
+
+.top_head_img {
+    vertical-align: middle;
+    height: 20px;
+    width: 21px;
+}
+/*  */
+.main_img_backround_color{
+    background-color: #D7CFC4;
+    height:720px;
+}
+.img_hight{
+    height: 720px;
+}
+  .custom_border{
+    position: relative;
+  }
+  .custom_border::after{
+    content: "";
+    position: absolute;
+    right:  -9.5px;
+    bottom: -10px; 
+    width: 120px; 
+    height: 10px;
+    background-color: #D7CFC4;
+
+  }
+  .custom_border::before{
+    content: "";
+    position: absolute;
+    right: -9.5px;
+    top:-10px;
+    width: 120px; 
+    height: 10px;
+    background-color: #D7CFC4;
+
+  }
+   .custom_border{
+    border-right: 10px solid #D7CFC4;
+   }
+   .add_extra_padding{
+    padding-left: 70px;
+   }
+   .custom_border_boot{
+    border-bottom: 1px solid #8E7D6B;
+    width: 50%;
+   }
+   .contact_us{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 28px;
+   }
+   .contact_us_para{
+    font-family: "Nunito Sans", sans-serif;
+   }
+   @media screen and (max-width:767.98px){
+    .add_extra_padding{
+        padding-left: 0px;
+       }
+       .custom_border_boot{
+        width: 100%;
+       }
+   }
+/* footer */
+.footer_bg_color{
+  background-color: #EAE5DE;
+}
+.email-subscribe {
+  border: 1px solid #B8A79E;
+  width: auto;
+}
+.email-input {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.join-btn {
+  border: none;
+  background: transparent;
+}
+.help,.list-unstyled li,.foteer_p>p{
+  font-family: "Nunito Sans", sans-serif;}
+.list-unstyled li,.foteer_p>p{
+  font-size: 13px;
+}
+.design{
+  font-family: "Italiana", sans-serif;
+  font-size: 38px;  
+}
+a{
+  text-decoration: none;
+}
+  

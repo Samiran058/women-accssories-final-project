@@ -1,0 +1,69 @@
+.top-header {
+    background-color: #D7CFC4;
+}
+
+.top_head_font_aw {
+    font-size: 20px;
+}
+
+.top_head_img {
+    vertical-align: middle;
+    height: 20px;
+    width: 21px;
+}
+
+.for_hover_effect:hover{
+    border-radius: 15px;
+}
+
+/*  */
+.product-card {
+    position: relative;
+}
+
+.add-to-cart-btn {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 6px;
+    display: none;
+}
+.product-card:hover .add-to-cart-btn {
+ display: block;
+}
+.customer_view_opacity{
+    opacity: 0.6;
+}
+/* footer */
+.footer_bg_color{
+    background-color: #EAE5DE;
+}
+.email-subscribe {
+    border: 1px solid #B8A79E;
+    width: auto;
+}
+.email-input {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.join-btn {
+    border: none;
+    background: transparent;
+}
+.help,.list-unstyled li,.foteer_p>p{
+    font-family: "Nunito Sans", sans-serif;}
+.list-unstyled li,.foteer_p>p{
+    font-size: 13px;
+}
+.design{
+    font-family: "Italiana", sans-serif;
+    font-size: 38px;  
+}

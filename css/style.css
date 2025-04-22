@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&display=swap');
+
+/* top head */
+.top_head_bg_color {
+    background-color: #D7CFC4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sign {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.top_head_font_aw {
+    font-size: 18.9px;
+}
+
+.top_head_img {
+    vertical-align: middle;
+    height: 19px;
+    width: 19px;
+}
+/* @media screen and (max-width:) {
+    
+} */
+
+/* navbar */
+.navbar-brand {
+    font-size: 76px;
+    font-family: "Italiana", sans-serif;
+}
+
+.navbar-text {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+.search-bar {
+    max-width: 340px;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* padding: 5px 10px; */
+    /* display: flex;
+    align-items: center; */
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.search-bar button {
+    max-width: 74px;
+    width: 100%;
+    height: 100%;
+    background-color: #A08C78;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* padding: 5px; */
+    color: white;
+}
+
+@media screen and (max-width:991px) {
+    .navbar-brand {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:567px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+}
+
+/* newest collection sectiopn */
+.image-container {
+    max-width: 580px;
+    width: 100%;
+    height: 643px;
+    aspect-ratio: 16/9;
+    background-image: url('../images/Group\ 40135.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.for_padding_marg_collection {
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
+
+.glam-text {
+    font-family: "Birthstone Bounce", cursive;
+    font-size: 60px;
+}
+
+.explore {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 24px;
+}
+
+.newest {
+    font-family: "Italiana", sans-serif;
+    font-size: 76px;
+}
+
+@media screen and (max-width:1293px) {
+    .custom-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .newest {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .image-container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .main-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .newest {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:545px) {
+    .image-container {
+        height: 443px;
+    }
+
+    .overlay-img {
+        height: 300px;
+    }
+
+    .glam-text {
+        font-size: 30px;
+    }
+}
+
+/* shop our section */
+.shop_bg_color {
+    background-color: #D7CFC4;
+}
+
+.shop {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 24px;
+}
+
+/* new arrivals section */
+.badge {
+    background-color: #D7CFC4;
+}
+
+.new_arrivals {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:991px) {
+    .new_arrivals_marginsetiing {
+        margin-top: 39.5px !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .new_arrivals_marginsetiing {
+        margin-top: 0px !important;
+    }
+}
+
+/* welcome section css */
+.welcome_section_bg_color {
+    height: 440px;
+    background-color: #D7CFC4;
+    margin-top: 80px !important;
+}
+
+.custom_position_apply {
+    position: relative;
+}
+
+.custom_position_apply_child {
+    position: absolute;
+    bottom: -50px;
+    top: -240px
+}
+
+.welcome_h2 {
+    font-family: "Italiana", sans-serif;
+    font-size: 60px;
+}
+
+.text-lorem {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width:991px) {
+    .custom_position_apply {
+        position: static;
+    }
+
+    .custom_position_apply_child {
+        position: static;
+    }
+
+    .welcome_section_bg_color {
+        height: auto;
+        margin-top: 0px !important;
+    }
+
+    .welcome_h2 {
+        font-size: 40px;
+    }
+
+}
+
+/*sale section */
+.image-grid img {
+    max-width: 780px;
+    width: 100%;
+    height: 850px;
+}
+
+.bg_color_for_backroun {
+    background-color: #F6F4F0;
+}
+
+.birthday_collection {
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+}
+
+.birthday {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 50px;
+}
+
+.sale {
+    font-family: "Italiana", sans-serif;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+.upto {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.custom_extra_padding {
+    padding-left: 200px !important;
+}
+
+@media screen and (max-width:991px) {
+    .image-grid img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .custom_extra_padding {
+        padding-left: 0px !important;
+    }
+
+    .birthday {
+        font-size: 30px;
+    }
+
+    .sale {
+        font-size: 35px;
+    }
+}
+
+/* more accessories setion css */
+.bg-brown {
+    background-color: #CDA28C;
+}
+
+.fw-bold2 {
+    font-family: "Italiana", sans-serif;
+    font-size: 35px;
+}
+
+.text-muted2 {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* Guarantee section css */
+.bg-light-gray {
+    background-color: #D7CFC4;
+}
+
+.custom_margin_guarntee_section {
+    margin-top: 100px;
+}
+
+.fw-bold23 {
+    font-family: "Italiana", sans-serif;
+    font-size: 40px;
+}
+
+.text-muted123 {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.quilty {
+    font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width:991px) {
+    .custom_margin_guarntee_section {
+        margin-top: 30px;
+    }
+}
+
+/* who we section css */
+.for_bg_color_who {
+    background-color: #D7CFC4;
+    height: 600px;
+}
+
+.img_hight_fit img {
+    /* width: 100%; */
+    height: 600px !important;
+}
+
+.custom_add_bothside_padding {
+    padding: 0px 150px 0px 200px;
+}
+
+.text-box {
+    padding-top: 200px !important;
+}
+
+.who_we {
+    font-family: "Italiana", sans-serif;
+    font-size: 50px;
+}
+
+.founded {
+    font-family: "Italiana", sans-serif;
+    font-size: 38px;
+}
+
+.text-muted0e12 {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+    .custom_add_bothside_padding {
+        padding: 0px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .text-box {
+        padding-top: 50px !important;
+    }
+}
+
+@media screen and (max-width:577px) {
+    .for_bg_color_who {
+        height: auto;
+    }
+
+    .img_hight_fit img {
+        width: 100%;
+        height: 400px !important;
+    }
+}
+
+/* follow designer section css */
+.image_width {
+    width: 100%;
+}
+
+/* .edit_hight{
+    height: 281px;
+} */
+/* @media screen and (max-width:991px) {
+    .edit_hight{
+        height: auto;
+    } 
+} */
+.follow {
+    font-family: "Italiana", sans-serif;
+    font-size: 42px;
+}
+
+/* go to intagram section */
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #B8A79E;
+    border-radius: 50%;
+    font-size: 12px;
+    text-decoration: none;
+}
+.circle a{
+    color:#B8A79E;
+}
+.font_size_incrise{
+    font-size: 80px;
+    font-weight: 50;}
+
+/* footer */
+.footer_bg_color{
+    background-color: #EAE5DE;
+}
+.email-subscribe {
+    border: 1px solid #B8A79E;
+    width: auto;
+}
+.email-input {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.join-btn {
+    border: none;
+    background: transparent;
+}
+.help,.list-unstyled li,.foteer_p>p{
+    font-family: "Nunito Sans", sans-serif;}
+.list-unstyled li,.foteer_p>p{
+    font-size: 13px;
+}
+.design{
+    font-family: "Italiana", sans-serif;
+    font-size: 38px;  
+}
