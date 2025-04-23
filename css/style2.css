@@ -130,3 +130,7 @@ position: relative;
     display: none;
 } */
 /* top rated section css */
+
+.fa-heart:hover{
+    color: red;
+}

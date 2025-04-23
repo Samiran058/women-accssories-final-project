@@ -467,3 +467,13 @@ a {
     font-family: "Italiana", sans-serif;
     font-size: 38px;  
 }
+.unicon ul li a,.span_a1 a{
+    color: black;
+}
+/* .unicon ul li a,.span_a1 a:hover{
+    color: #A08C78;
+} */
+.unicon ul li a:hover,
+.span_a1 a:hover {
+    color: #716c6b; /* Or any hover color you want */
+}
